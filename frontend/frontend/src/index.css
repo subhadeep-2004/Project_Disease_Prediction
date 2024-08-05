@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+:root{
+    --background-color : white;
+    --primary-text-color: #0a0a0a;
+    --secondary-text-color: #ffffff;
+    --toggle-bg: #f0eb9d;
+    --toggle-fg: #ffd000;
+  
+  }
+
+[data-theme="dark"]{
+    --secondary-text-color: #0a0a0a;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #0a0a0a;
+    --toggle-bg: #283452;
+    --toggle-fg: #00a6ff;
+
+} */
+
+/* This is mostly intended for prototyping; please download the pattern and */
+
+body{
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/worn-dots.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #91DDCF;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #028391;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #91DDCF;
+  
+}
+
+/* .slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+} *//* custom-carousel.css */
+.slick-dots li button:before {
+  color: green; /* Change this to your desired color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: teal; /* Change this to your desired active dot color */
+}
+.slick-slide{
+  /* background-color: ; */
+}
